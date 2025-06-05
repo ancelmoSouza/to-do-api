@@ -1,0 +1,718 @@
+{
+	"log": {
+		"version": "1.2",
+		"creator": {
+			"name": "Insomnia REST Client",
+			"version": "insomnia.desktop.app:v11.1.0"
+		},
+		"entries": [
+			{
+				"startedDateTime": "2025-06-05T00:36:14.685Z",
+				"time": 7.167,
+				"request": {
+					"method": "PUT",
+					"url": "http://127.0.0.1:8000/tasks/complete/2",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [
+						{
+							"name": "access_token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNjc1fQ.V4IywsAVxlHo3IOdSEqeZ686DD0nvPnRYnNDl-Zzbu4",
+							"path": "/",
+							"domain": "127.0.0.1",
+							"httpOnly": true
+						}
+					],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.1.0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNjc1fQ.V4IywsAVxlHo3IOdSEqeZ686DD0nvPnRYnNDl-Zzbu4"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"name": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "content-length",
+							"value": "58"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 05 Jun 2025 00:34:45 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=72"
+						}
+					],
+					"content": {
+						"size": 58,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"success\":true,\"message\":\"Tarefa completada com sucesso\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 7.167,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "SetStatusToComplete"
+			},
+			{
+				"startedDateTime": "2025-06-05T00:36:14.685Z",
+				"time": 6.991,
+				"request": {
+					"method": "DELETE",
+					"url": "http://127.0.0.1:8000/tasks/3",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [
+						{
+							"name": "access_token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNjc1fQ.V4IywsAVxlHo3IOdSEqeZ686DD0nvPnRYnNDl-Zzbu4",
+							"path": "/",
+							"domain": "127.0.0.1",
+							"httpOnly": true
+						}
+					],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.1.0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNTAyfQ.41k9CUwOTUKJOGDqwqMN6mxfpUb5lR0gz6YGVZK5Dq0"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"name": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "content-length",
+							"value": "68"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 05 Jun 2025 00:33:25 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=72"
+						}
+					],
+					"content": {
+						"size": 68,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":\"success\",\"message\":\"Remoção da task feita com sucesso\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 6.991,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "DeleteTask"
+			},
+			{
+				"startedDateTime": "2025-06-05T00:36:14.685Z",
+				"time": 8.263,
+				"request": {
+					"method": "PUT",
+					"url": "http://127.0.0.1:8000/tasks/4",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [
+						{
+							"name": "access_token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNjc1fQ.V4IywsAVxlHo3IOdSEqeZ686DD0nvPnRYnNDl-Zzbu4",
+							"path": "/",
+							"domain": "127.0.0.1",
+							"httpOnly": true
+						}
+					],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.1.0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNTAyfQ.41k9CUwOTUKJOGDqwqMN6mxfpUb5lR0gz6YGVZK5Dq0"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n  \"title\": \"Revisar relatório financeiro\",\n  \"description\": \"Incluir análise de custos e revisão do layout\",\n  \"status\": \"pending\",\n  \"dueDate\": \"2025-06-12T18:00:00Z\",\n  \"userId\": 1\n}\n"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"name": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "content-length",
+							"value": "41"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 05 Jun 2025 00:32:02 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=72"
+						}
+					],
+					"content": {
+						"size": 41,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Task atualizada com sucesso\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 8.263,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "UpdateTask"
+			},
+			{
+				"startedDateTime": "2025-06-05T00:36:14.685Z",
+				"time": 11.452,
+				"request": {
+					"method": "POST",
+					"url": "http://127.0.0.1:8000/tasks",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [
+						{
+							"name": "access_token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNjc1fQ.V4IywsAVxlHo3IOdSEqeZ686DD0nvPnRYnNDl-Zzbu4",
+							"path": "/",
+							"domain": "127.0.0.1",
+							"httpOnly": true
+						}
+					],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.1.0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzMzQyfQ.nOG7QAeDzJTQp5XUbTs_z5HSoqqRXhH0UDyOUly2H0E"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n  \"title\": \"Concluir relatório financeiro\",\n  \"description\": \"Relatório do segundo trimestre\",\n  \"status\": \"pending\",\n  \"userId\": 1\n}\n"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"name": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "content-length",
+							"value": "220"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 05 Jun 2025 00:29:12 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=72"
+						}
+					],
+					"content": {
+						"size": 220,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":4,\"title\":\"Concluir relatório financeiro\",\"description\":\"Relatório do segundo trimestre\",\"status\":\"pending\",\"dueDate\":null,\"userId\":1,\"createdAt\":\"2025-06-05T00:29:12.000Z\",\"updatedAt\":\"2025-06-05T00:29:12.000Z\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 11.452,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "CreateTask"
+			},
+			{
+				"startedDateTime": "2025-06-05T00:36:14.685Z",
+				"time": 8.092,
+				"request": {
+					"method": "GET",
+					"url": "http://127.0.0.1:8000/tasks/1",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [
+						{
+							"name": "access_token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNjc1fQ.V4IywsAVxlHo3IOdSEqeZ686DD0nvPnRYnNDl-Zzbu4",
+							"path": "/",
+							"domain": "127.0.0.1",
+							"httpOnly": true
+						}
+					],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.1.0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgyOTYxfQ.oqci-wiXOBVATBC8ouEhWejBwK1NC2JiPSQ1GCzKGvA"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"name": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "content-length",
+							"value": "190"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 05 Jun 2025 00:25:09 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=72"
+						}
+					],
+					"content": {
+						"size": 190,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":1,\"title\":\"Lavar louca\",\"description\":\"Lavar a louca da pia\",\"status\":\"pending\",\"dueDate\":null,\"userId\":1,\"createdAt\":\"2025-06-04T18:06:17.000Z\",\"updatedAt\":\"2025-06-04T18:06:17.000Z\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 8.092,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "GetTaskById"
+			},
+			{
+				"startedDateTime": "2025-06-05T00:36:14.685Z",
+				"time": 4.492,
+				"request": {
+					"method": "GET",
+					"url": "http://127.0.0.1:8000/tasks",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [
+						{
+							"name": "access_token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNjc1fQ.V4IywsAVxlHo3IOdSEqeZ686DD0nvPnRYnNDl-Zzbu4",
+							"path": "/",
+							"domain": "127.0.0.1",
+							"httpOnly": true
+						}
+					],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.1.0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNTAyfQ.41k9CUwOTUKJOGDqwqMN6mxfpUb5lR0gz6YGVZK5Dq0"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"name": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "content-length",
+							"value": "643"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 05 Jun 2025 00:34:49 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=72"
+						}
+					],
+					"content": {
+						"size": 643,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id\":1,\"title\":\"Lavar louca\",\"description\":\"Lavar a louca da pia\",\"status\":\"pending\",\"dueDate\":null,\"userId\":1,\"createdAt\":\"2025-06-04T18:06:17.000Z\",\"updatedAt\":\"2025-06-04T18:06:17.000Z\"},{\"id\":2,\"title\":\"Lavar louca\",\"description\":\"Lavar a louca da pia\",\"status\":\"completed\",\"dueDate\":null,\"userId\":1,\"createdAt\":\"2025-06-04T18:06:47.000Z\",\"updatedAt\":\"2025-06-05T00:34:45.000Z\"},{\"id\":4,\"title\":\"Revisar relatório financeiro\",\"description\":\"Incluir análise de custos e revisão do layout\",\"status\":\"pending\",\"dueDate\":\"2025-06-12T18:00:00.000Z\",\"userId\":1,\"createdAt\":\"2025-06-05T00:29:12.000Z\",\"updatedAt\":\"2025-06-05T00:32:02.000Z\"}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 4.492,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "GetTasks"
+			},
+			{
+				"startedDateTime": "2025-06-05T00:36:14.685Z",
+				"time": 5.719,
+				"request": {
+					"method": "POST",
+					"url": "http://127.0.0.1:8000/auth/login",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [
+						{
+							"name": "access_token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNjc1fQ.V4IywsAVxlHo3IOdSEqeZ686DD0nvPnRYnNDl-Zzbu4",
+							"path": "/",
+							"domain": "127.0.0.1",
+							"httpOnly": true
+						}
+					],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.1.0"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"email\": \"user@teste.com\",\n\t\"password\": \"123456\"\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [
+						{
+							"name": "access_token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNjc1fQ.V4IywsAVxlHo3IOdSEqeZ686DD0nvPnRYnNDl-Zzbu4",
+							"path": "/",
+							"httpOnly": true
+						}
+					],
+					"headers": [
+						{
+							"name": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"name": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "set-cookie",
+							"value": "access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNjc1fQ.V4IywsAVxlHo3IOdSEqeZ686DD0nvPnRYnNDl-Zzbu4; Path=/; HttpOnly; SameSite=Lax"
+						},
+						{
+							"name": "content-length",
+							"value": "247"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 05 Jun 2025 00:34:35 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=72"
+						}
+					],
+					"content": {
+						"size": 247,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"success\":true,\"message\":\"Login successful\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNjc1fQ.V4IywsAVxlHo3IOdSEqeZ686DD0nvPnRYnNDl-Zzbu4\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 5.719,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Login"
+			},
+			{
+				"startedDateTime": "2025-06-05T00:36:14.685Z",
+				"time": 105.472,
+				"request": {
+					"method": "POST",
+					"url": "http://127.0.0.1:8000/auth/register",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [
+						{
+							"name": "access_token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoyLCJlbWFpbCI6InVzZXJAdGVzdGUuY29tIiwibmFtZSI6IlVzZXIgVGVzdGUifSwiaWF0IjoxNzQ5MDgzNjc1fQ.V4IywsAVxlHo3IOdSEqeZ686DD0nvPnRYnNDl-Zzbu4",
+							"path": "/",
+							"domain": "127.0.0.1",
+							"httpOnly": true
+						}
+					],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.1.0"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\" : \"User Teste\",\n\t\"email\": \"user@teste.com\",\n\t\"password\": \"123456\"\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"name": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "content-length",
+							"value": "335"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 05 Jun 2025 00:20:52 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=72"
+						}
+					],
+					"content": {
+						"size": 335,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":2,\"email\":\"user@teste.com\",\"password\":\"���jU\\u001b�MMN�!�r>���\\u001ab��_ʃ�HiL��^�N\\u0003�\\u0017�:`?>��j\\u001a\\u0015�3�;�/��_~��݉�a\",\"name\":\"User Teste\",\"salt\":\"ae59001f68236f7bcdd7d1ef2ef4587a\",\"createdAt\":\"2025-06-05T00:20:52.000Z\",\"updatedAt\":\"2025-06-05T00:20:52.000Z\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 105.472,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Register"
+			}
+		]
+	}
+}
